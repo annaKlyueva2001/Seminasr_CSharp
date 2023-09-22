@@ -30,6 +30,25 @@
 //44 5 78 -> 78
 //22 3 9 -> 22
 
+Console.WriteLine("Input first number: ");
+int num1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input second number: ");
+int num2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input third number: ");
+int num3 = Convert.ToInt32(Console.ReadLine());
+
+int max = num1;
+if(max < num2)
+{
+    max = num2;
+}
+if(max < num3)
+{
+    max = num3;
+}
+Console.WriteLine($"Maximum number is {max}");
+
+
 //Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 //4 -> да
 //-3 -> нет
